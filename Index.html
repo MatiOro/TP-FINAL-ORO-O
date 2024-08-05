@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipamiento de Gimnasio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>RecomendaGym</h1>
+        <button id="btnRecomendados" class="btn active">Recomendados</button>
+        <button id="btnNoRecomendados" class="btn">No Recomendados</button>
+        <button id="btnOtros" class="btn">Otros</button>
+    </header>
+    
+    <main>
+        <section id="recomendados" class="section active">
+            <h2>Equipamiento Recomendado</h2>
+            <div class="item imagenes">
+                <p>Barra para hacer ejercicio: Permite realizar una gran variedad de ejercicios que fortalecen y tonifican el cuerpo. Es fácil de instalar en casa y puede adaptarse a diversos niveles de condición física</p>
+                <img src="imagenes/barra.jpg">
+            </div>
+            <div class="item">
+                <p>Barras y Pesas de Calidad: Comodidad durante el ejercicio, sino que también puede contribuir a mejores resultados a largo plazo</p>
+                <img src="imagenes/mancuerna.jpg">
+            </div>
+            <div class="item">
+                <p>Equipos Cardiovasculares de Alta Calidad: Precisión, durabilidad, confort y capacidad para ofrecer una experiencia de entrenamiento completa y efectiva.</p>
+                <img src="imagenes/cinta.webp">
+            </div>
+            <div class="item">
+                <p> Banco con barra plano: entrenamientos efectivos con pesas libres de manera segura y cómoda</p>
+                <img src="imagenes/banco.webp">
+            </div>
+        </section>
+        <section id="no-recomendados" class="section">
+            <h2>Equipamiento No Recomendado</h2>
+            <div class="item">
+                <p>Máquinas de Peso Fijo y Unidimensionales: No son ideales para todos los usuarios debido a las limitaciones en el desarrollo muscular, la funcionalidad, la adaptabilidad y el riesgo de lesiones.</p>
+                <img src="imagenes/maquina.jpg">
+            </div>
+            <div class="item">
+                <p>Equipos de Baja Calidad o Mal Mantenidos: Riesgo de lesiones durante el ejercicio y pueden no funcionar correctamente, lo que afecta negativamente la efectividad del entrenamiento</p>
+                <img src="imagenes/cintamal.jpg">
+            </div>
+            <div class="item">
+                <p>Equipos que Promuevan Malas Posturas o Movimientos Forzados: Pueden aumentar el riesgo de lesiones musculares y articulares, no permiten un rango completo de movimiento y pueden reducir la efectividad del entrenamiento al limitar la activación muscular adecuada</p>
+                <img src="imagenes/smith.jpg">
+            </div>
+        </section>
+        <section id="otros" class="section">
+            <h2>Conócenos:</h2>
+            <p>Bienvenido a RecomendaGym: Tu Guía de Equipamiento de Gimnasio En RecomendaGym nos dedicamos a ofrecerte la mejor orientación para elegir el equipamiento adecuado para tu rutina de ejercicios en casa o en el gimnasio. </p>
+            <video width="640" height="360" controls>
+            <source src="imagenes/video.mp4" type="video/mp4">
+            <div id="otros-contenido" class="contenido">
+                <table>
+                    <tr>
+                        <td><img src="imagenes/imagen2.png" width="40" height="40"></td>
+                        <td><b> 54+ 9 11 2134 - 5688</b></td>
+                        <td><img src="imagenes/imagen3.png" width="40" height="40"></td>
+                        <td><b>recomendacionesgym@gmail.com </b></td>
+                        <td><img src="imagenes/imagen4.png" width="40" height="40"></td>
+                        <td><b>recomenda_gym</b></td>
+                    </tr>
+                </table>
+            </div>
+        </section>        
+    </main>
+    <script src="script.js"></script>   
+    <section id="fondo" class="hero dark-bg">
+        <div class="container">
+        <div class="imagen-fondo"></div>
+        </div>
+    </section>
+    <footer>
+        <p>@ Equipamiento Gym</p>
+    </footer>
+</body>
+</html>
